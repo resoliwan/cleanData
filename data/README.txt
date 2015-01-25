@@ -4,7 +4,7 @@ Version 1.0
 ==================================================================
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Università degli Studi di Genova.
+DITEN - Universitï¿½ degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
@@ -44,9 +44,14 @@ The dataset includes the following files:
 
 The following files are available for the train and test data. Their descriptions are equivalent. 
 
-- 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+- 'train/subject_train.txt': Each row identifies the subject who performed the
+ activity for each window sample. Its range is from 1 to 30.
 
-- 'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis. 
+- 'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone
+accelerometer X axis in standard gravity units 'g'.
+ Every row shows a 128 element vector.
+  The same description applies for the 'total_acc_x_train.txt'
+  and 'total_acc_z_train.txt' files for the Y and Z axis.
 
 - 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
 

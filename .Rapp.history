@@ -1,0 +1,273 @@
+attribute(s[s$from == 'BOS',])
+s[s$from == 'BOS',]
+nrow(s[s$from == 'BOS',]#
+)
+nrow(s[s$from == 'BOS',])
+test <- read.csv('/Users/lee/machine/rprog/week1/hw1_data.csv')
+ls()
+test
+inital <- read.csv('/Users/lee/machine/rprog/week1/hw1_data.csv', nrow=10)#
+classes <- sapply(inital, class)#
+test <- read.csv('/Users/lee/machine/rprog/week1/hw1_data.csv', colClasses = classes)
+inital
+classes
+library(swirl)#
+swirl()
+1:20
+pi:10
+15:1
+?``
+?`:`
+seq(1,20)
+seq(0, 10, by=0.5)
+seq(5, 10, length=30)
+my_seq<-seq(5, 10, length=30)
+my_seq.length()
+length(my_seq)
+1:length(my_seq)
+seq(along.with = my_seq)
+seq_along(my_seq)
+rep(0, time-40)
+rep(0, time4040)
+rep(0, times=40)
+rep(c(0,1,2), times=10)
+req(c(0,1,2), each=10)
+rep(c(0,1,2), each=10)
+num_vect = c(0.5, 55, -10, 6)
+num_vect <- c(0.5, 55, -10, 6)
+tf = num_vect < 1
+tf <- num_vect < 1
+tf
+num_vect >= 6
+my_char <- c("My","name", "is")
+my_char
+paste(my_char)
+paste(my_char, collapse=" ")
+my_name <- c(my_char, "resoliwan")
+my_name
+paste(myname, collapse="s")
+paste(my_name, collapse="s")
+paste(my_name, collapse=" ")
+paste("Hello", "world!", sep = " "
+;
+paste("Hello", "world!", sep = " ")
+paste("Hello", "world!", sep = "")
+paste(1:3, c("X", "Y", "Z"), sep = "")
+paste(LETTERS, 1:4, sep = "-")
+str(apply)
+x <- martirx(rnorm(200), 20, 10)#
+apply(x, 1, quantile, probs = c(0.25, 0.75))
+x <- martirx(rnorm(200), 20, 10))
+x <- martirx(rnorm(200), 20, 10)
+x <- matrix(rnorm(200), 20, 10)
+x
+apply(x, 1, quantile, probs = c(0.25, 0.75))
+apply(x, 1, quantile)
+apply(x, 1, quantile, probs = c(0.25, 0.75))
+a <- array(rnorm(2 * 2 * 10), c(2, 2, 10))
+a
+library(swirl)
+swirl()
+TRUE == TRUE
+(FALSE == TRUE) == FALSE
+6 == 7
+6 <= 7
+6 < 7
+10 <= 10
+5 != 7
+!(5 == 7)
+5 == 7
+!5 == 7
+TRUE & TRUE
+FALSE & FALSE
+TRUE & C(TRUE, FALS, FASLE)
+TRUE & c(TRUE, FALS, FASLE)
+TRUE & c(TRUE, FALSE, FASLE)
+TRUE & c(TRUE, FALSE, FALSE)
+TRUE && c(TRUE, FALSE, FASLE)
+TRUE && c(TRUE, FALSE, FALSE)
+TRUE | c(TRUE, FALSE, FASLSE)
+TRUE | c(TRUE, FALSE, FALSE)
+TRUE || c(TRUE, FA:)
+TRUE || c(TRUE, FALSE, FALSE)
+5 > 8 || 6 != 8 && 4 > 3.9
+isTRUE(6>4)
+identical('twins','twins')
+vxor(5 == 6, !FALSE)
+xor(5 == 6, !FALSE)
+ints <- sample(10)
+ints
+ints > 5
+which(ints > 7)
+any(ints < -)
+any(ints < 0)
+all(ints > 0)
+exit()
+0
+swril()
+swirl()
+0
+swirl()
+head(flag)
+head(flags)
+dim(flags)
+class(flags)
+cls_list <- lapply(flags, class)
+as.list(flags)
+cls_list
+class(cls_list)
+as.character(cls_list)
+cls_vector = sapply(flags, class)
+cls_vector <- sapply(flags, class)
+cls_vect <- sapply(flags, class)
+cls
+cls_vector
+class(cls_vect) to confirm that sapply() simplified the result to a character vector.
+class(cls_vect)
+0
+exit
+library(swirl)#
+swirl()
+0
+library(swirl)#
+swirl()
+head(flags)
+dim(flags)
+class(falsgs)
+class(flags)
+cls_list <- lapply(falgs, class)
+cls_list <- lapply(flags, class)
+cls_list
+class(cls_list)
+as.character(cls_list)
+cls_vect <- sqpply(flags, class)
+cls_vect <- sapply(flags, class)
+class(cls_vect)
+flags
+head(flags)
+sum(flags$orange)
+flag_colors <- flags[, 11:17]
+flag_colors
+head(flag_colors)
+lapply(flag_colors, sum)
+sapply(flag_colors, sum)
+sapply(flag_colors, mean)
+flag_shapres <- flags[, 19:23]
+flag_shapes <- flags[, 19:23]
+lapply(flag_shapres, range)
+lapply(flag_shapes, range)
+shape_mat <- sapply(flag_shapes, range)
+shape_mat
+class(shape_mat)
+unique(c(3, 4, 5, 5, 5, 6, 6))
+lapply(flags, unique)
+unique_vals <- lapply(flags, unique)
+unique_vals
+lapply(unique_vals, length)
+sapply(unique_vals, length)
+sapply(flags, length)
+sapply(flags, unique)
+lapply(unique_vals, function(elem) elem[2])
+str(flags)
+summary(flags)
+sapply(flags, unique)
+vapply(flags, unique, numeric(1))
+ok()
+sapply(flags, class)
+vapply(flags, class, character(1))
+?tapply
+table(flags$landmass)
+table(flags$animate)
+tapply(flags$animate, flags$landmass, mean)
+tapply(flags$population, flags$red, summary)
+tapply(flags$population, flags$landmasses, summary)
+flags$population
+flags$landmasses
+tapply(flags$population, flags$landmass, summary)
+library(datasets)#
+data(iris)
+head(iris)
+?iris
+unique(iris$Species)
+tapply(iris$Sepal.Length, iris$Species, mean)
+apply(iris[, 1:4], 1, mean)
+apply(iris[, 1:4], 2, mean)
+library(datasets)#
+data(mtcars)
+?mtcars
+head(mtcars)
+unique(mtcars$cyl)
+tapply(mtcars$mpg, mtcars$cyl)
+tapply(mtcars$mpg, mtcars$cyl, mean)
+with(mtcars, tapply(mpg, cyl, mean))
+with?
+l
+?with
+?mtcars
+tapply(mtcars$mpg, mtcars$hp, mean)
+tapply(mtcars$hp, mtcars$cyl, mean)
+hpsByCyl <- tapply(mtcars$hp, mtcars$cyl, mean)#
+hpsByCyl[0] - hpsByCyl[2]
+hpsByCyl
+hpsByCyl$4
+class(hpsByCyl)
+hpsByCyl[0]
+hpsByCyl[1]
+hpsByCyl[2]
+hpsByCyl[3]
+hpsByCyl[3] - hpsByCyl[1]
+debug(ls)
+ls
+ls()
+library(dpylr)
+library(dplyr)
+install.packages("dplyr")
+library(dplyr)
+exit
+()
+;a
+ad
+f
+setwd("/Users/lee/machine/JOHN03cleanDataProject")#
+library(dplyr)#
+testDataX <- read.table("./data/test/X_test.txt")#
+testDataY <- read.table("./data/test/y_test.txt")#
+testData <- cbind(testDataX, testDataY)#
+#
+trainDataX <- read.table("./data/train/X_train.txt")#
+trainDataY <- read.table("./data/train/y_train.txt")#
+trainData <- cbind(trainDataX, trainDataY)
+dim(trainData)
+totData <- rbind(testData, trainData)
+dim(totData)
+featureLabels <- read.table("./data/features.txt")#
+rbind(featureLabels, data.frame(V1 = NA, V2 = 'activity'))
+colnames(totData) <- featureLabels$V2
+head(totData)
+featureLabels <- read.table("./data/features.txt")#
+featureLabels <- rbind(featureLabels, data.frame(V1 = NA, V2 = 'activity'))#
+#colnames(summaryData) <- featureLabels$V2#
+featureLabels$V2#
+colnames(totData) <- featureLabels$V2
+head(totData)
+activityLabels <- read.table("./data/activity_labels.txt")
+activityLabels
+totData <- mutate(totData,activityName = factor(activity, labels=activityLabels$V2 ))
+totData <- mutate(totData,activityStrName = factor(activity, labels=activityLabels$V2 ))
+activityLabels$V2
+totData <- mutate(totData,activityName = factor(activity, labels=activityLabels$V2 ))
+mutate(totData,activityName = factor(activity, labels=activityLabels$V2 ))
+totData2 <- totData
+totData <- mutate(totData, activityName = factor(activity, labels=activityLabels$V2 ))
+totData <- mutate(totData, activityName = factor(activity, labels=c("1","2","3","4","5","6")))
+namas(totData)
+names(totData)
+totData <- mutate(totData, activityName = factor(activity, labels=c("1","2","3","4","5","6")))
+totData <- mutate(totData, a = activity)
+totData <- mutate(totData)
+totData
+head(totData)
+head(totData$activity)
+head(factor(totData$activity, labels=activityLabels$V2))
+?cbind
+totData
